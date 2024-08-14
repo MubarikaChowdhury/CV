@@ -1,0 +1,296 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/mohammad-asif-iqbal-khan-ph-d-76a4051a9/}{\Large Sultana Mubarika Rahman Chowdhury}} & Email :  \href{mailto:schow034@fiu.edu}{schow034@fiu.edu}\\
+  \href{https://www.linkedin.com/in/mubarikachowdhury/}{Linkedin} 
+  & Mobile :  +1 407-963-6908 \\
+  \href{https://github.com/MubarikaChowdhury}{Github} 
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Academic Background}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Florida International University (FIU)}{Miami, FL, USA}
+      { Ph.D. in Public Health (Biostatistics)}{August 2021 - Present}
+    \resumeSubheading
+      {Florida International University (FIU)}{Miami, FL, USA}
+      {MS in Statistics}{2021}
+    \resumeSubheading
+      {University of Chittagong}{Chittagong, Bangladesh}
+      {MS in Statistics}{2019}
+    \resumeSubheading
+     {University of Chittagong}{Chittagong, Bangladesh}
+      {B.Sc. in Statistics}{2016}
+  \resumeSubHeadingListEnd
+% ---------Honors and awards-------------
+\section{Honors and Awards}
+ \resumeSubHeadingListStart
+ 
+ \resumeItem{Posit::Conf Opportunity Scholar}{2023}
+ 
+ \resumeItem{Chittagong University Dean’s Scholarship for graduate students}{2017}
+
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{
+     \textbf{Languages}{: R, SAS}
+    }
+ \resumeSubItem{}{
+     \textbf{Statistical Software}{: SPSS, STATA.}
+    }
+ \resumeSubItem{}{
+     \textbf{Reproducible Report}{: Quarto, Markdown/Rmarkdown, LaTeX.}
+    }
+ \resumeSubItem{}{
+     \textbf{DevOps}{: Git, Github.}
+    }
+  \resumeSubItem{}{
+     \textbf{Others}{: Microsoft Office, Arc-GIS}
+    }
+ \resumeSubHeadingListEnd
+ 
+ %------------------------Internship---------
+ 
+\section{Professional Development}
+  \resumeSubHeadingListStart
+
+    \resumeSubItem
+     {Advanced Tidymodels, Posit Conf. 2023}{August 2023}
+
+    \resumeSubItem
+     {Shiny in Production Tools and Techniques, Posit Conf 2023}{August 2023}
+
+    \resumeSubItem
+     {Instructor Training, The Research Centers in Minority Institutions (RCMI) Consortium}{August 2022 - December 2022}
+
+    \resumeSubItem
+     {FIU-RCMI Professional Development Series - Short Course in Systematic Reviews and Meta-Analysis}{May 2021}
+
+    \resumeSubItem
+     {Workshop on Arc GIS Application in Statistics, Department of Statistics, CU}{May 2018}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+     \resumeSubheading
+      {Biostatistics Department, Stempel College of Public Health, FIU}{Miami, FL}
+      {Graduate Assistant}{August 2021 - Present}
+      \begin{itemize}
+          \item Conducted classes on regression techniques.
+          \item Conducted tutoring sessions for graduate-level Biostatistics II course.
+          \item Prepared exam and homework solution manuals and graded assignments.
+      \end{itemize}
+      
+    \resumeSubheading
+      {The Research Centers in Minority Institutions (RCMI) Consortium}{Miami, FL}
+      {Assistant Instructor}{February 2023 - April 2023}
+      \begin{itemize}
+          \item Worked as an assistant instructor for the 10-week national series on the R programming language, using a modified version of the R for Reproducible Scientific Analysis Data Carpentry curriculum.
+      \end{itemize}
+
+   
+
+    \resumeSubheading
+      {Mathematics and Statistics Department, FIU}{Miami, FL}
+      {Graduate Assistant}{August 2019 - July 2021}
+      \begin{itemize}
+          \item Held office hours and tutored course content through one-on-one and group discussions for undergraduate-level Statistics I, Statistics II, and Statistics for Behavioral Science courses.
+          \item Developed skills to convey topics in various ways (visual, verbal, conceptual, etc.).
+      \end{itemize}
+
+    \resumeSubheading
+      {British Council}{Chittagong, Bangladesh}
+      {Invigilator}{Date not provided}
+      \begin{itemize}
+          \item Guaranteed that all British Council-administered tests such as IELTS, Aptis, and school exams such as IGCSE, O and A Levels for Cambridge International, proceeded seamlessly on designated test days, ensuring that all assigned responsibilities and standards were fulfilled.
+      \end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+
+\section{Projects}
+ \resumeSubHeadingListStart 
+    \resumeSubItem
+      {CTN-0094 Data Analysis Shiny Dashboard}
+      
+      Created a Shiny app that provides comprehensive insights through visualizations and machine learning techniques into the CTN-0094 clinical trials.
+     
+    \resumeSubItem
+      {Covid-19 Delta Variant Data}
+      
+      Applied advanced R programming skills in wrangling, cleaning, and extracting information from the CDC’s open data repository related to the Delta variant of COVID-19 hospitalization trends for three Florida Counties: Miami-Dade, Palm Beach, and Broward.
+    
+
+    \resumeSubItem
+      {Heart Disease Prediction}
+      
+      Developed a model for heart disease prediction using stepwise logistic regression as part of a Data Analysis II course project.
+     
+    \resumeSubItem
+      {Predicting Loan Status Approval using Machine Learning}
+      
+      Developed and evaluated predictive models to automate loan status approvals in real-time using logistic regression, LDA, QDA, and random forest techniques. Implemented data preprocessing, model training, and validation, achieving high accuracy and effective borrower segmentation.
+      
+
+ \resumeSubHeadingListEnd
+
+
+ %------------------------Work Experience---------
+ 
+ %-------------------------------------------------
+\section{Academic Courses}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Data Science and Machine Learning for Health Research(University of Miami)}
+    
+    \resumeSubItem{Advanced R computing for Health Science(FIU)}
+    
+    \resumeSubItem{Advance SAS and Sas computing for Health Science(FIU)}
+    
+    \resumeSubItem{Survival Data Analysis(FIU)}
+      
+    \resumeSubItem{Longitudinal Data Analysis(FIU)}
+      
+      
+     \resumeSubItem{Graduate level Mathematical Statistics(FIU)}
+      
+      \resumeSubItem{Linear Models(FIU)}
+      
+  \resumeSubHeadingListEnd
+
+% \section{Training/Certification}
+
+%         \resumeItemListStart
+% %   \resumeSubheading{Trainee}: OPAL-RT Application-Oriented Courses $|$ August 2020}
+%         \resumeItem{}{\textbf{Trainee}: OPAL-RT Application-Oriented Courses $|$ August 2020}
+%         \begin{itemize}
+%           \item OP-101: RT-LAB Software $||$ OP-203: eMEGASIM Toolbox $||$ OP-204: ePHASORSIM Toolbox $||$ OP-302: FMUs with ePHASORSIM $||$ TestDrive
+%         \end{itemize}
+        
+%         \resumeItem{}{\textbf{Trainee}: Engineering Staff College, Institute of Engineers-Bangladesh (IEB) $|$ December 2010 - March 2011}
+%         \begin{itemize}
+%           \item Programmable Logic Controller (Siemens S3, S7 with WinCC) $||$ Programming \& operation on Micro-controllers
+%         \end{itemize}
+        
+%          \resumeItem{}{\textbf{Trainee}: Electricity Generation Company-Bangladesh (EGCB) $|$ October-December 2010}
+%         \begin{itemize}
+%           \item Operation \& maintenance of generation and transmission (240 MW combined-cycle power plant)
+%         \end{itemize}
+        
+%         \resumeItemListEnd
+       
+
+
+     
+
+
+
+
+%-------PUBLICATIONS------------------  
+\section{Publications and Authorship}
+ \resumeSubHeadingListStart
+
+  % Manuscripts (Published) without bullet point
+  \resumeSubItem{}{Manuscripts (Published)}
+
+  \resumeItemListStart
+    \resumeItem{Chowdhury, S. M. R., Zhou, M., Kuang, L., \& Hu, N. (2023). Association between continuity of primary care with chronic conditions among patients in Guangdong Province, China. \textit{The Open Public Health Journal}, 16.}
+
+    \resumeItem{Chowdhury, S. M. R., George, F., \& Gulati, S. (2023). An application of logistic regression on Add Health data: Childhood abuse and anxiety. \textit{Journal of Behavioral Education}, 8(3), 314-327.}
+
+    \resumeItem{George, F., Chowdhury, S. M. R., \& Gulati, S. (2022). Application of logistic regression on heart disease data and a review of some standardization methods. \textit{International Journal of Statistics and Probability}, 11(5).}
+
+    \resumeItem{Pebley, K., Farage, G., Hare, M. E., Bursac, Z., Andres, A., Chowdhury, S. M. R., \& Krukowski, R. A. (2022). Changes in self-reported and accelerometer-measured physical activity among pregnant TRICARE beneficiaries. \textit{BMC Public Health}, 22(1), 1-8.}
+
+    \resumeItem{Pérez-Muñoz, A., Horn, T. L., Graber, J., Chowdhury, S. M. R., Bursac, Z., \& Krukowski, R. A. (2022). Recruitment strategies for a post-cessation weight management trial: A comparison of strategy cost-effectiveness and sample diversity. \textit{Contemporary Clinical Trials Communications}, 30, 101037.}
+  \resumeItemListEnd
+
+  % Poster Presentation without bullet point
+  \resumeSubItem{}{Poster Presentation}
+
+  \resumeItemListStart
+    \resumeItem{Chowdhury, S.M.R. (2022). Childhood abuse and anxiety: Logistic regression with Add Health survey data. Poster presented at the 2022 Graduate Student Appreciation Week, FIU, April 2022.}
+   
+  \resumeItemListEnd
+  \textbf{Please find examples of scientific authorship here: \href{https://scholar.google.com/citations?user=DCyE8g4AAAAJ&hl=en&oi=ao}{Google Scholar}.}
+
+ \resumeSubHeadingListEnd
+\end{document}
+
